@@ -35,7 +35,7 @@ To test the code:
 ```
 npm run test
 ```
-Link to postman routes: 
+Link to postman routes: (Postman -> Import -> Link -> copy and paste the given link to access the routes)
 ```
 https://www.getpostman.com/collections/970b173c18c516bd0f5c
 ```
