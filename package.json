@@ -1,0 +1,38 @@
+{
+  "name": "zomentum-hiring-ticket-booking-system",
+  "version": "1.0.0",
+  "description": "Zomentum Hiring Challenge (Backend Track): Ticket Booking System",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darksun27/zomentum-hiring-challenge.git"
+  },
+  "keywords": [
+    "darksun27",
+    "zomentum",
+    "nodejs",
+    "mongodb",
+    "ticket-booking"
+  ],
+  "author": "darksun27",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darksun27/zomentum-hiring-challenge/issues"
+  },
+  "homepage": "https://github.com/darksun27/zomentum-hiring-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
