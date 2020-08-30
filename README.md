@@ -16,17 +16,17 @@ Ticket booking system build on Javascript using the following stack:
 
 # Postman Screenshots
 - Booking Ticket using user details
-![Task Image 1]()
+![Task Image 1](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task1.png)
 - Updating a ticket timing
-![Task Image 2]()
+![Task Image 2](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task2.png)
 - View all tickets at once
-![Task Image 3]()
+![Task Image 3](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task4.png)
 - Deleting a particular ticket
-![Task Image 4]()
+![Task Image 4](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task3.png)
 - User Details from Ticket
-![Task Image 5]()
+![Task Image 5](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task5.png)
 - Only 20 Tickets per Ticket Timing
-![Task Image 6]()
+![Task Image 6](https://github.com/darksun27/zomentum-hiring-challenge/blob/master/screenshots/zomentum-task6.png)
 
 # Running the code locally
 
