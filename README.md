@@ -35,6 +35,10 @@ To test the code:
 ```
 npm run test
 ```
+Link to postman routes: 
+```
+https://www.getpostman.com/collections/970b173c18c516bd0f5c
+```
 
 # Postman Screenshots
 - Booking Ticket using user details
