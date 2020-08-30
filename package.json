@@ -4,7 +4,7 @@
   "description": "Zomentum Hiring Challenge (Backend Track): Ticket Booking System",
   "main": "index.js",
   "scripts": {
-    "test": "mocha || true",
+    "test": "mocha --timeout 10000 --exit",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },

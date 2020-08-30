@@ -8,7 +8,7 @@ const Ticket = require('../models/ticketsModel');
 describe('Ticket API', ()=> {
     it('should get all the tickets of a particular time', (done) => {
         request(server)
-            .get('/viewTickets?time=00:30')
+            .get('/viewTickets?time=01:40')
             .then((res) => {
                 expect(res.body).to.contain.property('tickets');
                 done();
@@ -22,7 +22,7 @@ describe('Ticket API', ()=> {
             .send({
                 username: 'darksun27',
                 phone_number: 9810866770,
-                time: '00:30'
+                time: '01:40'
             })
             .then((res) => {
                 expect(res.body).to.contain.property('ticketID');
@@ -34,7 +34,7 @@ describe('Ticket API', ()=> {
         let user = {
             username: 'darksun27',
             phone_number: 9810866770,
-            time: '00:30'
+            time: '01:40'
         }
         let ticketID = null;
         request(server)
@@ -60,7 +60,7 @@ describe('Ticket API', ()=> {
         let user = {
             username: 'darksun27',
             phone_number: 9810866770,
-            time: '00:30'
+            time: '01:40'
         }
         let ticketID = null;
         request(server)
@@ -88,7 +88,7 @@ describe('Ticket API', ()=> {
         let user = {
             username: 'darksun27',
             phone_number: 9810866770,
-            time: '00:30'
+            time: '01:40'
         }
         let ticketID = null;
         request(server)
