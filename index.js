@@ -1,4 +1,5 @@
 //imports
+const bodyParser = require('body-parser');
 const chalk = require('chalk');
 const express = require('express');
 const morgan = require('morgan');
@@ -7,14 +8,15 @@ const morgan = require('morgan');
 const app = express();
 
 //application middlewares
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan('combined'));
 
 //connecting database
 const connectDB = require('./database/index.js');
+const { urlencoded } = require('body-parser');
 connectDB.connect();
 
 //mongoose model imports
-require('./models/userModel');
 require('./models/ticketsModel');
 
 //routes for the application
