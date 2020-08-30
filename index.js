@@ -36,3 +36,5 @@ process.on("SIGINT", () => {
     console.log(chalk.green("Turn Off Sequence Complete! Exiting"));
     process.exit(1);
 });
+
+module.exports = server;
