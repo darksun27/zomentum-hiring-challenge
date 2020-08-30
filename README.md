@@ -12,7 +12,8 @@ Ticket booking system build on Javascript using the following stack:
   - [x] An endpoint to update a ticket timing.
   - [x] An endpoint to view all the tickets for a particular time.
   - [x] An endpoint to delete a particular ticket.
-  - [x] An endpoint to view the user’s details based on the ticket id.
+  - [x] An endpoint to view the user’s details based on the ticket id. 
+  - [x] Delete ticket after 8 hours of ticket timing : Used Time to Live(TTL) feature of mongoose to delete documents after 8 hours of their timings. [Link](https://github.com/darksun27/zomentum-hiring-challenge/blob/43a63ea9849aabfc8e02d5a23ef6e04eded5154f/models/ticketsModel.js#L4)
 
 # Postman Screenshots
 - Booking Ticket using user details
