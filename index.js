@@ -9,6 +9,17 @@ const app = express();
 //application middlewares
 app.use(morgan('combined'));
 
+//connecting database
+const connectDB = require('./database/index.js');
+connectDB.connect();
+
+//mongoose model imports
+require('./models/userModel');
+require('./models/ticketsModel');
+
+//routes for the application
+require('./routes/tickets')(app);
+
 //starting the server
 const server = app.listen(process.env.PORT || 3000, () => {
     console.log("Server Started!");
