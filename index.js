@@ -26,7 +26,7 @@ require('./models/productModel');
 require('./routes/index')(app);
 
 //starting the server
-const server = app.listen(process.env.PORT || 5000, () => {
+const server = app.listen(process.env.PORT || 6000, () => {
     console.log("Server Started!");
     console.log("Listening on PORT ", chalk.inverse.green(server.address().port));
 });
