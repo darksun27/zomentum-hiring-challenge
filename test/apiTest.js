@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const request = require('supertest');
 const server = require('../index');
 
-const Ticket = require('../models/ticketsModel');
+const Ticket = require('../models/ordersModel');
 
 describe('Ticket API', ()=> {
     it('should get all the tickets of a particular time', (done) => {
